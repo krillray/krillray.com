@@ -16,7 +16,8 @@
     z-index: 1000;
 }
 
-/* Navbar text (Krillray) */
+#navbar a {color:black;}
+/* Navbar text*/
 #navbar h1 {
     margin: 0;
     font-size: 28px;
@@ -46,4 +47,17 @@ body {
   padding-top: 60px; /* give space for the fixed header */
 }
 
-#intral{color: black; font-family: Helvetica, sans-serif;padding-top: 20px;}
+#intral{color: black; 
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    padding-top: 20px;}
+
+.imga{height: 150px; 
+    width: 150px; 
+    border-radius: 80px;
+    border: 10px solid;
+    border-color: #bdbbb6;
+    position: absolute;
+    top: 50%;
+    left:45%;
+}
