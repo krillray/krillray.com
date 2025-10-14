@@ -1,0 +1,49 @@
+@font-face {
+    font-family:"GoogleSansCode";
+    src: url(fonts/Google_Sans_Code/GoogleSansCode-VariableFont_wght.ttf);
+}
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;                 
+    background-color: #BDBBB6; 
+    color: black;
+    font-family: "GoogleSansCode";
+    font-weight: 400;
+    padding: 15px 25px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* soft shadow for depth */
+    z-index: 1000;
+}
+
+/* Navbar text (Krillray) */
+#navbar h1 {
+    margin: 0;
+    font-size: 28px;
+    display: inline-block;
+}
+
+/* Body content spacing so it’s not hidden under the navbar */
+body {
+    margin: 0;
+    padding-top: 70px; 
+    background-color: #036D19;
+}
+
+
+#navbar nav a {
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+#navbar nav a:hover {
+    text-decoration: underline;
+}
+body {
+    margin: 0;
+  padding-top: 60px; /* give space for the fixed header */
+}
+
+#intral{color: black; font-family: Helvetica, sans-serif;padding-top: 20px;}
