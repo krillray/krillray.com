@@ -54,10 +54,36 @@ body {
 
 .imga{height: 150px; 
     width: 150px; 
+    top: 50%;
+    left:45%;
+    transform: translate(-50,-50);
     border-radius: 80px;
     border: 10px solid;
     border-color: #bdbbb6;
     position: absolute;
-    top: 50%;
-    left:45%;
+    
 }
+
+
+.gitimg {
+    height: 80px; 
+    bottom: 0%;
+    right: -15px;
+    width: 80px; 
+    border-radius: 80px;
+    border: 5px solid;
+    border-radius: 50%;
+    border-color: #bdbbb6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+}
+
+    .gitimg img {
+        width: 60%;
+        height: auto;
+    }
+
