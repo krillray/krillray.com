@@ -66,24 +66,45 @@ body {
 
 
 .gitimg {
-    height: 80px; 
+    height: 150px;
     bottom: 0%;
-    right: -15px;
-    width: 80px; 
+    right: 15px;
+    width: 150px; 
     border-radius: 80px;
-    border: 5px solid;
+    border: 10px solid;
     border-radius: 50%;
     border-color: #bdbbb6;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 40%;
+    top: 35%;
     left: 35%;
+    
 }
 
     .gitimg img {
-        width: 60%;
+        width: 100%;
         height: auto;
+        top: 40%;
+        left:30%;
+        display: block;
     }
+.ximg {
+    height: 150px;
+    bottom: 0%;
+    top: 35%;
+    left: 55%;
+    right: 15px;
+    width: 150px; 
+    border-radius: 80px;
+    border: 10px solid;
+    border-radius: 50%;
+    border-color: #bdbbb6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+
+}
 
