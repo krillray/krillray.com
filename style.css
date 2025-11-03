@@ -54,43 +54,57 @@ body {
 
 .imga{height: 150px; 
     width: 150px; 
+    top: 50%;
+    left:45%;
+    transform: translate(-50,-50);
     border-radius: 80px;
     border: 10px solid;
     border-color: #bdbbb6;
     position: absolute;
-    top: 50%;
-    left:50%;
-}
-.footer{ margin-top: 20px; padding: 0 10px;}
-.copyright{float: left;}
-.quote{float: right;}
-.footer::after {
-    content: "";
-    display: block;
-    clear:both
-}
-.ftcolor {
-    /* Set the background color */
-    background-color: #1a472a; /* A dark green, for example */
     
-    /* Ensure the text is readable on the dark background */
-    color: #f0f0f0; /* Off-white text */
-    
-    /* Add some padding for space above and below the content */
-    padding: 20px; 
-    
-    /* Center the text */;
-}
-.ftcolor p {
-    /* REMOVE MARGIN: This removes the large default vertical space from the paragraphs */
-    margin: 0; 
-    
-    /* If you still need a tiny bit of space between the paragraphs, you can use: */
-    /* margin: 5px 0; */
 }
 
-/* Optional: To place the text next to each other like in your image */
-.copyright, .quote {
-    display: inline-block;
-    padding: 0 20px; /* Add horizontal space between them */
+
+.gitimg {
+    height: 150px;
+    bottom: 0%;
+    right: 15px;
+    width: 150px; 
+    border-radius: 80px;
+    border: 10px solid;
+    border-radius: 50%;
+    border-color: #bdbbb6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    
 }
+
+    .gitimg img {
+        width: 100%;
+        height: auto;
+        top: 40%;
+        left:30%;
+        display: block;
+    }
+.ximg {
+    height: 150px;
+    bottom: 0%;
+    top: 35%;
+    left: 55%;
+    right: 15px;
+    width: 150px; 
+    border-radius: 80px;
+    border: 10px solid;
+    border-radius: 50%;
+    border-color: #bdbbb6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+
+}
+
