@@ -44,7 +44,7 @@ body {
 }
 body {
     margin: 0;
-  padding-top: 60px; /* give space for the fixed header */
+    padding-top: 60px;
 }
 
 #intral{color: black; 
