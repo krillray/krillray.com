@@ -70,27 +70,15 @@ body {
     clear:both
 }
 .ftcolor {
-    /* Set the background color */
-    background-color: #1a472a; /* A dark green, for example */
-    
-    /* Ensure the text is readable on the dark background */
-    color: #f0f0f0; /* Off-white text */
-    
-    /* Add some padding for space above and below the content */
-    padding: 20px; 
-    
-    /* Center the text */;
+    background-color: #1a472a; 
+    color: #f0f0f0;
+    padding: 20px;
 }
 .ftcolor p {
-    /* REMOVE MARGIN: This removes the large default vertical space from the paragraphs */
     margin: 0; 
-    
-    /* If you still need a tiny bit of space between the paragraphs, you can use: */
-    /* margin: 5px 0; */
 }
 
-/* Optional: To place the text next to each other like in your image */
 .copyright, .quote {
     display: inline-block;
-    padding: 0 20px; /* Add horizontal space between them */
+    padding: 0 20px;
 }
