@@ -54,6 +54,9 @@ body {
 
 .imga{height: 150px; 
     width: 150px; 
+    top: 50%;
+    left:45%;
+    transform: translate(-50,-50);
     border-radius: 80px;
     border: 10px solid;
     border-color: #bdbbb6;
