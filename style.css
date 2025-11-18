@@ -52,17 +52,15 @@ body {
     font-family: Helvetica, sans-serif;
     padding-top: 20px;}
 
-.imga{height: 150px; 
+.imga{
+    height: 150px; 
     width: 150px; 
-    top: 50%;
-    left:45%;
-    transform: translate(-50,-50);
     border-radius: 80px;
     border: 10px solid;
     border-color: #bdbbb6;
-    position: absolute;
-    top: 50%;
-    left:50%;
+    display: block;
+    margin: 20px auto;
+    object-fit: cover;
 }
 .footer{ margin-top: 20px; padding: 0 10px;}
 .copyright{float: left;}
