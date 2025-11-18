@@ -61,50 +61,27 @@ body {
     border: 10px solid;
     border-color: #bdbbb6;
     position: absolute;
-    
+    top: 50%;
+    left:50%;
+}
+.footer{ margin-top: 20px; padding: 0 10px;}
+.copyright{float: left;}
+.quote{float: right;}
+.footer::after {
+    content: "";
+    display: block;
+    clear:both
+}
+.ftcolor {
+    background-color: #1a472a; 
+    color: #f0f0f0;
+    padding: 20px;
+}
+.ftcolor p {
+    margin: 0; 
 }
 
-
-.gitimg {
-    height: 150px;
-    bottom: 0%;
-    right: 15px;
-    width: 150px; 
-    border-radius: 80px;
-    border: 10px solid;
-    border-radius: 50%;
-    border-color: #bdbbb6;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 35%;
-    left: 35%;
-    
+.copyright, .quote {
+    display: inline-block;
+    padding: 0 20px;
 }
-
-    .gitimg img {
-        width: 100%;
-        height: auto;
-        top: 40%;
-        left:30%;
-        display: block;
-    }
-.ximg {
-    height: 150px;
-    bottom: 0%;
-    top: 35%;
-    left: 55%;
-    right: 15px;
-    width: 150px; 
-    border-radius: 80px;
-    border: 10px solid;
-    border-radius: 50%;
-    border-color: #bdbbb6;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-
-}
-
