@@ -52,17 +52,28 @@ body {
     font-family: Helvetica, sans-serif;
     padding-top: 20px;}
 
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 12px;
+}
+
 .imga{
-    height: 150px; 
-    width: 150px; 
-    border-radius: 80px;
-    border: 10px solid;
-    border-color: #bdbbb6;
+    width: 150px;
+    height: 150px;
+    max-width: 90%;
+    border-radius: 50%;
+    border: 10px solid #bdbbb6;
     display: block;
     margin: 20px auto;
     object-fit: cover;
 }
-.footer{ margin-top: 20px; padding: 0 10px;}
+.footer{ margin-top: 20px; padding: 0 10px;
+color: #194D2D;}
 .copyright{float: left;}
 .quote{float: right;}
 .footer::after {
@@ -70,16 +81,131 @@ body {
     display: block;
     clear:both
 }
+/* Footer styling for footer element with class 'ftcolor' */
 .ftcolor {
-    background-color: #1a472a; 
+    background-color: #1a472a; /* original footer color */
     color: #f0f0f0;
-    padding: 20px;
+    padding: 10px 12px; /* tighter vertical spacing */
 }
 .ftcolor p {
-    margin: 0; 
+    margin: 0;
+    line-height: 1.1; /* bring lines closer together */
+    display: inline-block;
+}
+.ftcolor .copyright,
+.ftcolor .quote {
+    display: inline-block;
+    padding: 0 8px; /* reduce horizontal gap */
+    float: none; /* override earlier floats inside footer */
+}
+.aboutnstuff{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: rgba(255,255,255,0.04);
+    border-radius: 12px;
+    margin: 20px auto;
+    padding: 14px;
+    width: 100%;
+    max-width: 640px; /* constrain card width */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
 }
 
-.copyright, .quote {
-    display: inline-block;
-    padding: 0 20px;
+.aboutnstuff h2{
+    font-family: "GoogleSansCode";
+    font-size: 1.2rem;
+    margin: 0;
+    text-align: center;
+}
+
+.aboutnstuff a{
+    color: black;
+    font-family: "GoogleSansCode";
+    text-decoration: none;
+    font-weight: 600;
+    padding: 8px 14px;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.12);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+    transition: transform .12s ease, box-shadow .12s ease;
+}
+.aboutnstuff a:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.12);
+}
+
+
+.row1,.row2 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #bdbbb6;
+    border-radius: 15px;
+    margin: 20px auto;
+    padding: 20px;
+    gap: 30px;
+    max-width: 900px;
+}
+
+.col1,.col2{
+    flex: 1;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.row2{margin-top: 30px;}
+
+.ovaview{
+    color: black;
+    text-align: center;
+    width: 100%;
+}
+
+.pypass, .pypass + div {
+    background-color: rgba(255,255,255,0.04);
+    border-radius: 12px;
+    padding: 16px 14px;
+    margin: 10px auto;
+    width: 100%;
+    max-width: 640px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.pypass a, .pypass + div a {
+    text-decoration: none;
+}
+
+.pypass p {
+    color: black;
+    margin: 8px 0 0;
+    font-size: 0.95rem;
+}
+.ovaview h1{
+    color: black;
+    font-family: "GoogleSansCode";
+    font-weight: 600;
+    font-size: 1.8rem;
+    padding: 8px 14px;
+    border-radius: 8px;
+}
+
+.dodo{
+        color: black;
+        font-family: "GoogleSansCode";
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 20px;
+        padding: 8px 14px;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.12);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+    transition: transform .12s ease, box-shadow .12s ease;
+
+}
+
+.dodo p{
+    font-family: "GoogleSansCode";
+    font-size: 20rem;
 }
